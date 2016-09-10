@@ -1,6 +1,6 @@
-package com.libqa.duck.application;
+package com.libqa.pattern.strategy.application;
 
-import com.libqa.duck.common.FlyBehavior;
+import com.libqa.pattern.strategy.common.FlyBehavior;
 
 /**
  * @Author : yion

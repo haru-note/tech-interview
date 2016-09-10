@@ -1,7 +1,7 @@
-package com.libqa.duck.application;
+package com.libqa.pattern.strategy.application;
 
-import com.libqa.duck.common.FlyBehavior;
-import com.libqa.duck.common.QuackBehavior;
+import com.libqa.pattern.strategy.common.FlyBehavior;
+import com.libqa.pattern.strategy.common.QuackBehavior;
 
 /**
  * @Author : yion
@@ -14,6 +14,14 @@ public abstract class Duck {
     QuackBehavior quackBehavior;
 
     public Duck() { }
+
+    public void setFlyBehavior(FlyBehavior fly) {
+        flyBehavior = fly;
+    }
+
+    public void setQuackBehavior(QuackBehavior quack) {
+        quackBehavior = quack;
+    }
 
     public abstract void display();
 

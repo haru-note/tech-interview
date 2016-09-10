@@ -1,4 +1,4 @@
-package com.libqa.duck.common;
+package com.libqa.pattern.strategy.common;
 
 /**
  * @Author : yion

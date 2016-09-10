@@ -1,6 +1,6 @@
-package com.libqa.duck.application;
+package com.libqa.pattern.strategy.application;
 
-import com.libqa.duck.common.QuackBehavior;
+import com.libqa.pattern.strategy.common.QuackBehavior;
 
 /**
  * @Author : yion
