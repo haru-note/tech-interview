@@ -2,9 +2,10 @@ package com.libqa.pattern.command;
 
 /**
  * @Author : yion
- * @Date : 2016. 9. 21.
+ * @Date : 2016. 9. 25.
  * @Description :
  */
 public interface Command {
-    public void execute();
+
+    void execute();
 }
