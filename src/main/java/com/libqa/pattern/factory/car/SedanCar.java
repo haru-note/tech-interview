@@ -1,12 +1,6 @@
 package com.libqa.pattern.factory.car;
 
-/**
- * @Author : yion
- * @Date : 2016. 9. 17.
- * @Description :
- */
 public class SedanCar extends Car {
-
     SedanCar() {
         super(CarType.SEDAN);
         construct();

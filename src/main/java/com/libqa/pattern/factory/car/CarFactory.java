@@ -1,10 +1,5 @@
 package com.libqa.pattern.factory.car;
 
-/**
- * @Author : yion
- * @Date : 2016. 9. 17.
- * @Description :
- */
 public class CarFactory {
     public static Car buildCar(CarType model) {
         Car car = null;
@@ -19,7 +14,6 @@ public class CarFactory {
             case LUXURY:
                 car = new LuxuryCar();
                 break;
-
             default:
                 break;
         }
