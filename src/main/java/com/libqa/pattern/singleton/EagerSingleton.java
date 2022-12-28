@@ -1,5 +1,7 @@
 package com.libqa.pattern.singleton;
 
+import java.util.Calendar;
+
 /**
  * @Author : yion
  * @Date : 2016. 9. 17.
@@ -11,6 +13,7 @@ public class EagerSingleton {
 
     // private constructor
     private EagerSingleton() {
+
     }
 
     public static EagerSingleton getInstance() {
