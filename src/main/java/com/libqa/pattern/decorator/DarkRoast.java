@@ -1,10 +1,5 @@
 package com.libqa.pattern.decorator;
 
-/**
- * @Author : yion
- * @Date : 2016. 9. 10.
- * @Description :
- */
 public class DarkRoast extends Beverage {
 
     public DarkRoast() {
