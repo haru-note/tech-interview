@@ -1,5 +1,4 @@
-# designPattern
+# Collection Framework의 기본 개념
 
-### List
-* factory
-* facade
+# Collection을 이용한 정렬 
+
