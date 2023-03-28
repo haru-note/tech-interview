@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.0'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
     compile('org.projectlombok:lombok:1.18.22')
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.29'
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
