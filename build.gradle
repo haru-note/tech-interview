@@ -1,4 +1,4 @@
-group 'OOAD'
+group 'tech-interview'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
