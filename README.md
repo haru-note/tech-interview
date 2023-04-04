@@ -19,5 +19,5 @@
 - Strategy 
 - Template Method
 - Facade
-- Cßommand 
+- Command 
 
