@@ -1,8 +1,6 @@
 package net.harunote.pattern.singleton;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 17.
  * @Description : 요청이 있을 때에 생성되는 인스턴스. 즉 사용되는 시점에 인스턴스를 생성한다.
  */
 public class LazySingleton {

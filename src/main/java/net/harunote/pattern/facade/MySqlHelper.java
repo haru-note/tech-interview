@@ -15,10 +15,10 @@ public class MySqlHelper {
 	}
 	
 	public void generateMySqlPDFReport(String tableName, Connection con){
-		logger.info("get MySql data from table and generate pdf report");
+		logger.info("MySQL DB의 테이블에서 PDF를 생성한다.");
 	}
 	
 	public void generateMySqlHTMLReport(String tableName, Connection con){
-		logger.info("get MySql data from table and generate html report");
+		logger.info("MySQL DB의 테이블에서 HTML를 생성한다.");
 	}
 }

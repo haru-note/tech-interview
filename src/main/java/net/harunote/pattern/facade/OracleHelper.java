@@ -17,16 +17,16 @@ public class OracleHelper {
 
     public void generateOraclePDFReport(String tableName, Connection con) {
         //get data from table and generate pdf report
-		logger.info("get Oracle data from table and generate pdf report");
+		logger.info("오라클 DB의 테이블에서 PDF를 생성한다.");
     }
 
     public void generateOracleHTMLReport(String tableName, Connection con) {
         //get data from table and generate pdf report
-		logger.info("get Oracle data from table and generate html report");
+        logger.info("오라클 DB의 테이블에서 HTML를 생성한다.");
     }
 
     public String generateOracleJsonReport(String tableName, Connection connection) {
-        logger.info("get Oracle data from table and generate json report");
+        logger.info("오라클 DB의 테이블에서 JSON 데이터를 생성한다.");
         return null;
     }
 }

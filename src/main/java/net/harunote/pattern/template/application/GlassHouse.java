@@ -11,11 +11,11 @@ public class GlassHouse extends HouseTemplate {
 
 	@Override
 	public void buildWalls() {
-		logger.info("Building Glass Walls");
+		logger.info("유리벽을 만들었다.");
 	}
 
 	@Override
 	public void buildPillars() {
-		logger.info("Building Pillars with glass coating");
+		logger.info("유리 기둥을 만들었다.");
 	}
 }

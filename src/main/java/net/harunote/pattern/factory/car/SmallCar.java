@@ -10,6 +10,6 @@ public class SmallCar extends Car {
     @Override
     protected void construct() {
         System.out.println("Building small car");
-        // add accessories
+        // do something
     }
 }

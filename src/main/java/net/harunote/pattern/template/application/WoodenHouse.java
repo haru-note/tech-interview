@@ -11,12 +11,12 @@ public class WoodenHouse extends HouseTemplate {
 
 	@Override
 	public void buildWalls() {
-		logger.info("Building Wooden Walls");
+		logger.info("나무벽을 만들었다.");
 	}
 
 	@Override
 	public void buildPillars() {
-		logger.info("Building Pillars with Wood coating");
+		logger.info("나무 기둥을 만들었다.");
 	}
 
 }

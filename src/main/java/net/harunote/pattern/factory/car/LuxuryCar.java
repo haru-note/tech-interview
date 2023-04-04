@@ -9,6 +9,6 @@ public class LuxuryCar extends Car {
     @Override
     protected void construct() {
         System.out.println("Building luxury Car");
-        // add accessories
+        // do something
     }
 }

@@ -35,11 +35,11 @@ public class HelperFacade {
 		
 	}
 	
-	public static enum DBTypes{
+	public enum DBTypes{
 		MYSQL,ORACLE;
 	}
 	
-	public static enum ReportTypes{
+	public enum ReportTypes{
 		HTML,PDF;
 	}
 }
