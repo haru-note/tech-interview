@@ -1,9 +1,14 @@
+plugins {
+    id 'java'
+}
+
 group 'tech-interview'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
-
-sourceCompatibility = 1.9
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_9
+    targetCompatibility = JavaVersion.VERSION_1_9
+}
 
 repositories {
     mavenCentral()
@@ -12,9 +17,12 @@ repositories {
 dependencies {
     implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.0'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
-    compile('org.projectlombok:lombok:1.18.22')
-    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.29'
-    compile group: 'log4j', name: 'log4j', version: '1.2.17'
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.slf4j:slf4j-log4j12:1.7.29'
+    implementation 'log4j:log4j:1.2.17'
 }
-targetCompatibility = JavaVersion.VERSION_1_9
