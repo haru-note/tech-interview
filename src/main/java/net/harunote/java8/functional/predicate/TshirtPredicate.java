@@ -1,4 +1,4 @@
-package net.harunote.java8.predicate;
+package net.harunote.java8.functional.predicate;
 
 /**
  * @author CodeVillains
@@ -11,7 +11,7 @@ interface TshirtPredicate {
 class TshirtColorPredicate implements TshirtPredicate {
     public boolean test(Tshirt tshirt) {
         return "red".equals(tshirt.getColor());
-        }
+    }
 }
 
 class TshirtPricePredicate implements TshirtPredicate {

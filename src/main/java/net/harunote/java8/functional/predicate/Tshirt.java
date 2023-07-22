@@ -1,15 +1,13 @@
-package net.harunote.java8.predicate;
+package net.harunote.java8.functional.predicate;
 
 
 import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 
 /**
  * @author CodeVillains
  */
 @Getter
-@Setter
 @ToString
 public class Tshirt {
     private int price;

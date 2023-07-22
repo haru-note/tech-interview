@@ -1,15 +1,17 @@
-package net.harunote.java8.predicate;
+package net.harunote.java8.functional.predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static java.util.Arrays.asList;
 
 /**
  * @author CodeVillains
  */
 public class TshirtPredicateApp {
     public static void main(String[] args) {
-        List<Tshirt> myShirtList = Arrays.asList(new Tshirt(100, "yellow"),
+        List<Tshirt> myShirtList = asList(new Tshirt(100, "yellow"),
                 new Tshirt(200, "green"),
                 new Tshirt(300, "blue"),
                 new Tshirt(400, "red"),
