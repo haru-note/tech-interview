@@ -16,7 +16,6 @@ public class BirthdayCakeCandle {
 
         Map<Integer, Integer> map = new HashMap<>();
 
-
         // 목록을 돌면서 키가 존재할 경우 +1, 아니면 1을 value 에 저장한다.
         for (int i = 0; i < ar.length; i++) {
             if (map.containsKey(ar[i])) {
@@ -26,8 +25,7 @@ public class BirthdayCakeCandle {
             }
         }
 
-        map.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
-
+        map.forEach((k, v) -> System.out.println("Item : " + k + " Count : " + v));
 
         // map 의 value 중 최대값을 추출
         int max = (Collections.max(map.values()));
@@ -40,10 +38,9 @@ public class BirthdayCakeCandle {
         // 4
         // 3 2 1 3
 
-
         int n = in.nextInt();
         int[] ar = new int[n];
-        for(int ar_i = 0; ar_i < n; ar_i++){
+        for (int ar_i = 0; ar_i < n; ar_i++) {
             ar[ar_i] = in.nextInt();
         }
         int result = birthdayCakeCandles(n, ar);

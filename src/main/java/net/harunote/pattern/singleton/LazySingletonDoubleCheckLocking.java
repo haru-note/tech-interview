@@ -1,8 +1,7 @@
 package net.harunote.pattern.singleton;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 17.
+ * @Author : CodeVillains
  * @Description :
  */
 public class LazySingletonDoubleCheckLocking {

@@ -3,6 +3,10 @@ package net.harunote.collection;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
+/**
+ * @Author : CodeVillains
+ * @Description :
+ */
 public class HashTableDemo {
 
 	public static void main(String args[]) {

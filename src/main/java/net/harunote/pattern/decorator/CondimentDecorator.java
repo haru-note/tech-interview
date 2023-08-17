@@ -1,8 +1,7 @@
 package net.harunote.pattern.decorator;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 10.
+ * @Author : CodeVillains
  * @Description :
  */
 public abstract class CondimentDecorator extends Beverage {

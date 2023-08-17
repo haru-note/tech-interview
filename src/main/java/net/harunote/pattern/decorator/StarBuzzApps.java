@@ -1,8 +1,7 @@
 package net.harunote.pattern.decorator;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 10.
+ * @Author : CodeVillains
  * @Description : 객체에 추가 요소를 동적으로 더할 수 있다. 상속을 통해 확장하면 유연성이 떨어진다
  */
 public class StarBuzzApps {

@@ -9,7 +9,7 @@ package net.harunote.quiz;
 public class Palindrom {
 
     public static void main(String[] args) {
-        System.out.println("Palindrom : " + Palindrom.isPalindrome2("Level"));
+        System.out.println("Palindrom : " + Palindrom.isPalindrome("Level"));
     }
 
     private static boolean isPalindrome(String word) {

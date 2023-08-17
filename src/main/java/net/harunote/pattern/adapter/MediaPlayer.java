@@ -1,8 +1,7 @@
 package net.harunote.pattern.adapter;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 25.
+ * @Author : CodeVillains
  * @Description :
  */
 public interface MediaPlayer {

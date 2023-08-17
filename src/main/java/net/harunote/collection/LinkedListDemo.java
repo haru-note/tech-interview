@@ -2,6 +2,11 @@ package net.harunote.collection;
 
 import java.util.LinkedList;
 
+
+/**
+ * @Author : CodeVillains
+ * @Description :
+ */
 public class LinkedListDemo {
 
 	public static void main(String args[]) {

@@ -1,7 +1,7 @@
 package net.harunote.pattern.factory.legacy;
 
 /**
- * @author edell.lee
+ * @author CodeVillains
  * @version 2022/12/20
  * @implNote
  */

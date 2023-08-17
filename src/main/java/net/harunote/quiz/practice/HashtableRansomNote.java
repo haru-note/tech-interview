@@ -6,7 +6,6 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * @Author : CodeVillains
  * @Description : The first line contains two space-separated integers describing the respective values of
  * (the number of words in the magazine) and  (the number of words in the ransom note).
  * The second line contains  space-separated strings denoting the words present in the magazine.

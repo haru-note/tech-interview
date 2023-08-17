@@ -1,7 +1,7 @@
 package net.harunote.quiz.practice;
 
 /**
- * @Author : CodeVillains
+ *
  * @Description :
  */
 

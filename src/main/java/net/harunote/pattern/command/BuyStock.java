@@ -1,8 +1,7 @@
 package net.harunote.pattern.command;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 25.
+ * @Author : CodeVillains
  * @Description :
  */
 public class BuyStock implements Command {

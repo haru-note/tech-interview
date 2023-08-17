@@ -1,7 +1,6 @@
 package net.harunote.quiz.practice;
 
 /**
- * @Author : CodeVillains
  * @Description : Given the root node of a binary tree, can you determine if it's also a binary search tree?
  * Complete the function in your editor below, which has  parameter: a pointer to the root of a binary tree.
  * It must return a boolean denoting whether or not the binary tree is a binary search tree.

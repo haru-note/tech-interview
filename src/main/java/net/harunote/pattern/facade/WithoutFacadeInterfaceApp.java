@@ -3,7 +3,7 @@ package net.harunote.pattern.facade;
 import java.sql.Connection;
 
 /**
- * @author edell.lee
+ * @author CodeVillains
  * @version 2022/12/28
  * @implNote Facade(표면, 외관, 창구) 패턴은 복잡한 하위 시스템에 대한 단순화된 상위 인터페이스를 제공한다.
  */

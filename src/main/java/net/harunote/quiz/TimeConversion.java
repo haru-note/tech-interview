@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * @Author : CodeVillains
  * @Description : AM, PM으로 입력 받은 시간을 24시간 포맷으로 변경하라.
+ * main 메소드에서 07:05:45PM 와 같은 값을 받았을 때 19:05:45 으로 시간 포맷을 변경하여 출력하라.
  */
 public class TimeConversion {
 

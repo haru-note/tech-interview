@@ -6,7 +6,6 @@ class TextInput {
         textInput += c;
     }
 
-
     public String getValue() {
         return textInput;
     }

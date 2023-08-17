@@ -1,4 +1,4 @@
-package net.harunote.collection.sort;
+package net.harunote.algorithm.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;

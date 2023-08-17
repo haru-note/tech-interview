@@ -2,6 +2,10 @@ package net.harunote.collection;
 
 import java.util.*;
 
+/**
+ * @Author : CodeVillains
+ * @Description :
+ */
 public class AlgorithmsDemo {
 
 	public static void main(String args[]) {

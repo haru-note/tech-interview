@@ -4,7 +4,6 @@ import java.io.IOException;
 
 /**
  * @Author : CodeVillains
- * @Date : 2017. 6. 16.
  * @Description :
  */
 public class MinimumMoves {

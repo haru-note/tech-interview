@@ -3,6 +3,11 @@ package net.harunote.collection;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+
+/**
+ * @Author : CodeVillains
+ * @Description :
+ */
 class LinkedHashSetDemo {
 	public static void main(String[] args) {
 		Set<String> linkHashSet = new LinkedHashSet<String>();

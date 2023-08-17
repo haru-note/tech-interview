@@ -2,6 +2,9 @@ package net.harunote.pattern.strategy;
 
 import java.util.function.BiFunction;
 
+/**
+ * @Author : CodeVillains
+ */
 public class Calculator {
     private BiFunction<Integer, Integer, Integer> operation;
 

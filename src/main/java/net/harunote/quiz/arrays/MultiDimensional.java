@@ -7,7 +7,7 @@ import java.util.Collections;
  * @Author : CodeVillains
  * @Description :
  */
-public class Multidimensional {
+public class MultiDimensional {
     public static void main(String[] args) {
         int[] a = new int[3];      // 배열의 선언
 

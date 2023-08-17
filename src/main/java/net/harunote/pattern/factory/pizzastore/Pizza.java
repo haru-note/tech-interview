@@ -3,8 +3,7 @@ package net.harunote.pattern.factory.pizzastore;
 import java.util.ArrayList;
 
 /**
- * @Author : yion
- * @Date : 2016. 9. 11.
+ * @Author : CodeVillains
  * @Description : 팩토리 패턴 - 객체 생성하는 부분을 서브 클래스에게 위임
  */
 public abstract class Pizza {

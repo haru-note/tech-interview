@@ -1,6 +1,7 @@
 package net.harunote.pattern.singleton;
 
 /**
+ * @Author : CodeVillains
  * @Description : static inner class 를 이용하여 instance를 생성한다.
  *  jvm 의 class loader의 매커니즘과 class의 load 시점을 이용하여 내부 class를 생성시킴으로 thread 간의 동기화 문제를 해결한다.
  */
