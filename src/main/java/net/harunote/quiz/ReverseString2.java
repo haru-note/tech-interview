@@ -3,7 +3,7 @@ package net.harunote.quiz;
 /**
  * @author CodeVillains
  */
-public class ReserseString2 {
+public class ReverseString2 {
     public static void main(String[] args) {
         String str = "ABCDefg";
         // 문자 배열로 변환한 뒤 역순으로 출력한다.
