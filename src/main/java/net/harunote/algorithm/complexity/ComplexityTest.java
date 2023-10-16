@@ -14,23 +14,23 @@ public class ComplexityTest {
         }
 
         // 이진 검색 수행 및 실행 시간 측정
-        long startTime = System.currentTimeMillis();
-        int result1 = binarySearch(arr, target);
-        long endTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
+        int binarySearchResult = binarySearch(arr, target);
+        long endTime = System.nanoTime();
         long binarySearchTime = endTime - startTime;
 
         // 선형 검색 수행 및 실행 시간 측정
-        startTime = System.currentTimeMillis();
-        int result2 = linearSearch(arr, target);
-        endTime = System.currentTimeMillis();
+        startTime = System.nanoTime();
+        int linearSearchResult = linearSearch(arr, target);
+        endTime = System.nanoTime();
         long linearSearchTime = endTime - startTime;
 
         // 결과 출력
-        System.out.println("이진 검색 결과: " + result1);
-        System.out.println("이진 검색 실행 시간: " + binarySearchTime + " 밀리초");
+        System.out.println("# 이진 검색 결과: " + binarySearchResult);
+        System.out.println("# 이진 검색 실행 시간: " + binarySearchTime + " ns");
 
-        System.out.println("선형 검색 결과: " + result2);
-        System.out.println("선형 검색 실행 시간: " + linearSearchTime + " 밀리초");
+        System.out.println("# 선형 검색 결과: " + linearSearchResult);
+        System.out.println("# 선형 검색 실행 시간: " + linearSearchTime + " ns");
     }
 
     public static int binarySearch(int[] arr, int target) {
