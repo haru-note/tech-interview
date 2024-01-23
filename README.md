@@ -14,13 +14,24 @@
 - Multi Column에 대한 정렬 처리 
 
 # 디자인 패턴
+- Adapter
+- Command
+- Decorator
+- Facade
 - Factory method
 - Singleton 
 - Strategy 
 - Template Method
-- Facade
-- Cßommand 
 
 # Java 8
+- functional 
+- lambda
+- parameterization
 
+# Quiz
+- 유명한 문제 및 기본적인 퀴즈 훈련
 
+# Algorithm 
+- LRU, LFU
+- Load Balancer
+- Sort Algorithm 

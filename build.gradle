@@ -22,7 +22,6 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.slf4j:slf4j-log4j12:1.7.29'
     implementation 'log4j:log4j:1.2.17'
 }
