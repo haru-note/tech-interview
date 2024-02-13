@@ -35,3 +35,14 @@
 - LRU, LFU
 - Load Balancer
 - Sort Algorithm 
+
+# 정보
+#### Origin Rerepository https://github.com/haru-note/tech-interview
+
+
+#### this source was moved from the link below.
+- https://github.com/gliderwiki/java-sample
+- https://github.com/gliderwiki/designPattern
+- https://github.com/gliderwiki/java8
+
+#### Collection of sources from 2016 to 2023 by VillainsCode
