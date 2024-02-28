@@ -1,7 +1,7 @@
 package net.harunote.collection.sort.actor;
 
 import static java.util.Arrays.asList;
-import static java.util.List.*;
+import static java.util.List.of;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -71,7 +71,7 @@ public class FilmFestival {
         consoleLog(set);
 
         // 연동별로 적용한 set
-        Set<Actor> yearSet = new TreeSet<>(new prizeYearComparator());
+        Set<Actor> yearSet = new TreeSet<>(new PrizeYearComparator());
         yearSet.addAll(list);
 
         logger.info("### 최신 연도별 정렬 후 ###");

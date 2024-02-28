@@ -3,7 +3,7 @@ package net.harunote.collection.sort.actor;
 import java.util.Comparator;
 
 // 수상 연도별로 정렬하기 위해 Comparator 인터페이스를 구현
-class prizeYearComparator implements Comparator<Object> {
+class PrizeYearComparator implements Comparator<Object> {
 
     public int compare(Object o1, Object o2) {
         int year1 = ((Actor) o1).prizeYear;
