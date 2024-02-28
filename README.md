@@ -11,7 +11,7 @@
 >   - 최초 커밋 정보들도 정리하였고, 코드가 바뀌거나 모으는 과정에서 최신 버전으로 변경된 부분도 있으니 주석등을 통해 코드 생성일 정보등을 참고할 수 있습니다.
 
 
-# algorithm 패키지 
+# Algorithm 패키지 
 알고리즘 관련 소스코드
 > Commits on Jun 30, 2017
 > 
@@ -39,7 +39,7 @@
   - Map Comparator
 
 
-# collection 패키지 
+# Collection 패키지 
 Collection Framework의 기본 개념
 > Commits on May 28, 2017
 > 
@@ -65,7 +65,7 @@ Collection Framework의 기본 개념
   - Comparable과 Comparator를 통한 정렬 구현 
   - Multi Column에 대한 정렬 처리 
 
-# pattern
+# Pattern
 주요 디자인 패턴에 대한 예제 정리. 
 > Commits on Sep 9, 2016
 > 
