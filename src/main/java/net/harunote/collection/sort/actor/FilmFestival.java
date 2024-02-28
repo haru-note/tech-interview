@@ -1,4 +1,7 @@
-package net.harunote.algorithm.sort.actor;
+package net.harunote.collection.sort.actor;
+
+import static java.util.Arrays.asList;
+import static java.util.List.*;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -43,13 +46,13 @@ public class FilmFestival {
         };
 
         logger.info("### 정렬 전 ###");
-        consoleLog(List.of(actors));
+        consoleLog(of(actors));
 
         Arrays.sort(actors);
         logger.info("### 기본 정렬 후 (배우이름) ###");
-        consoleLog(List.of(actors));
+        consoleLog(of(actors));
 
-        List<Actor> list = Arrays.asList(actors); // 배열을 리스트로
+        List<Actor> list = asList(actors); // 배열을 리스트로
         Collections.shuffle(list); // 리스트의 순서를 섞음.
 
         logger.info("### List shuffle 후 ###");

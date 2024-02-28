@@ -1,4 +1,4 @@
-package net.harunote.algorithm.sort.actor;
+package net.harunote.collection.sort.actor;
 
 import java.util.Comparator;
 

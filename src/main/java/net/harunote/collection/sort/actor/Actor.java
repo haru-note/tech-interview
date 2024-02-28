@@ -1,4 +1,4 @@
-package net.harunote.algorithm.sort.actor;
+package net.harunote.collection.sort.actor;
 
 class Actor implements Comparable<Object> {
 
