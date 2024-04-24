@@ -11,6 +11,16 @@
 >   - 최초 커밋 정보들도 정리하였고, 코드가 바뀌거나 모으는 과정에서 최신 버전으로 변경된 부분도 있으니 주석등을 통해 코드 생성일 정보등을 참고할 수 있습니다.
 
 
+# 📖 Book
+### [연봉 앞자리를 바꾸는] 개발자 기술 면접 노트 
+######  2024.03.20 한빛미디어 이남희 지음
+<img src="https://raw.githubusercontent.com/haru-note/harunote.github/main/image/book.jpg" width="500" />
+
+> Yes24 - https://www.yes24.com/Product/Goods/125554439
+> 
+> KyoboBooks - https://product.kyobobook.co.kr/detail/S000212738756
+
+
 # Algorithm 패키지 
 알고리즘 관련 소스코드
 > Commits on Jun 30, 2017
